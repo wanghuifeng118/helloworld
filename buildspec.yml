@@ -7,6 +7,10 @@ phases:
     commands:
       - echo start build.
       - gcc main.c -o myapp
+  test:
+    commands:
+      - echo start test.
+      - ./myapp
 artifacts:
   files:
     - myapp
